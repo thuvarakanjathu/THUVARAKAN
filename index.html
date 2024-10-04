@@ -4,32 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I am Thuvarakan - Bio Data</title>
+    <title>Thuvarakan - Professional Profile</title>
     <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to an external CSS file -->
     <style>
-         .profile-container {
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .profile-photo {
-            width: 150px;           
-            height: 150px;           
-            border-radius: 50%;          
-            object-fit: cover;          
-        }
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
         }
 
         header {
             text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
         }
 
         h1 {
-            color: brown;
+            margin: 0;
+        }
+
+        .profile-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4CAF50;
         }
 
         section {
@@ -37,84 +47,82 @@
         }
 
         h2 {
-            color:black;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 5px;
         }
 
         .contact-info {
             list-style-type: none;
             padding: 0;
+            margin: 0;
+            display: inline-block;
         }
 
-        .profile-container {
+        .contact-info li {
+            margin: 5px 0;
+        }
+
+        footer {
             text-align: center;
-            margin-top: 50px;
+            margin-top: 20px;
+            color: #777;
         }
-
-        .profile-photo {
-            width: 150px;           
-            height: 150px;           
-            border-radius: 50%;          
-            object-fit: cover;          
-        }
-        
     </style>
 </head>
 
 <body>
 
     <header>
-        <h1>I am Thuvarakan</h1>
-        <p></p>
+        <h1>Thuvarakan R.</h1>
+        <p>Student | Aspiring Web Developer | Sport Enthusiast</p>
     </header>
-    <div>
-        <img src="https://img.freepik.com/premium-vector/young-man-face-avater-vector-illustration-design_968209-13.jpg" alt="Profile Photo" class="profile-photo">
+
+    <div class="profile-container">
+        <div>
+            <img src="https://img.freepik.com/premium-vector/young-man-face-avater-vector-illustration-design_968209-13.jpg" alt="Profile Photo" class="profile-photo">
+        </div>
+
+        <section>
+            <h2>About Me</h2>
+            <p>
+                I am a student at Don Bosco, pursuing a degree in Information Technology. I am currently learning web page design, exploring various design techniques and coding languages. I am passionate about creating visually appealing and functional websites, and I enjoy the challenge of bringing my ideas to life through design.
+            </p>
+        </section>
+
+        <section>
+            <h2>My Information</h2>
+            <ul class="contact-info">
+                <li><strong>Date of Birth:</strong> 2003/11/23</li>
+                <li><strong>Email:</strong> thuvarakan2311@gmail.com</li>
+                <li><strong>Phone:</strong> 0771010406</li>
+                <li><strong>Blood Type:</strong> B+</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>Completed Advanced Level Exam.</li>
+                <li>Currently studying at Eastern University.</li>
+                <li>Currently attending Don Bosco.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Achievements in Sports</h2>
+            <ul>
+                <li><strong>Karate:</strong> National 3rd place and Provincial 1st place.</li>
+                <li><strong>Football:</strong> National 1st place (2021).</li>
+                <li><strong>Basketball:</strong> Provincial level 2nd place (2019).</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p><strong>Signature:</strong> Thuvarakan</p>
+        </footer>
     </div>
-     <section>
-    <h2>My Informations</h2>
-    <ul class="Informations">
 
-        <li><strong> name:</strong>   R.Thuvarakan</li>
-        <li><strong>Date of birth:</strong> 2003/11/23</li>
-        <li><strong>Email:</strong> thuvarakan2311@gmail.com</li>
-        <li><strong>phone:</strong>0771010406</li>      
-        <li><strong>Blood:</strong> B+</li>
-    </ul>
-    </section>
-
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a student at Don Bosco , pursuing a degree in Information Technology. Currently, I am learning web page
-            design, where I explore various design techniques and coding languages. I am passionate about creating
-            visually appealing and functional websites, and I enjoy the challenge of bringing my ideas to life through
-            design.
-
-
-        </p>
-    </section>
-
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>complete advanced level exam.</li>
-            <li>I am a student of Eastern University.</li>
-            <li>Now i am studying DON BOSCO</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Game Eligibility</h2>
-        <ul>
-            <li><strong>karate:</strong>national 3 place and provincel 1 place </li>
-            <li><strong>football:</strong> national 1 place(2021)</li>
-            <li><strong>basket ball:</strong> 2019 provincel level 2 place</li>
-
-    </section>
-    </section>
-
-    <footer>
-        <p><strong>signature:thuvarakan</strong></p>
-    </footer>
 </body>
 
 </html>
